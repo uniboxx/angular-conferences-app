@@ -8,9 +8,8 @@ describe('ViewConferenceComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ViewConferenceComponent]
-    })
-    .compileComponents();
+      imports: [ViewConferenceComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(ViewConferenceComponent);
     component = fixture.componentInstance;
